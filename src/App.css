@@ -1,1 +1,37 @@
+.App{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: lightgray;
+}
 
+.button__wrapper {
+    display: flex;
+    gap: 1rem;
+}
+h1 {
+    font-size: 6rem;
+}
+
+button {
+    border: none;
+    background-color: white;
+    box-shadow: 0 0 10px gray;
+    font-weight: bold;
+    font-size: 2rem;
+    color: inherit;
+    border-radius: 50%;
+    height: 4rem;
+    width: 4rem;
+    cursor: pointer;
+}
+
+.negative{
+    color: red;
+}
+
+.positive {
+    color: green;
+}
